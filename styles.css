@@ -182,7 +182,7 @@ h3 {
   border: 1px solid var(--line);
   border-radius: 8px;
   object-fit: cover;
-  object-position: 50% 35%;
+  object-position: 50% 0%;
 }
 
 .profile-role,
