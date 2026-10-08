@@ -3,80 +3,120 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Mingkai Liu</title>
+    <title>Mingkai Liu | Research Homepage</title>
     <meta
       name="description"
-      content="Academic personal homepage for research, publications, news, and experience."
+      content="Mingkai Liu's academic homepage, including research interests, publications, experience, and education."
     />
+    <meta property="og:title" content="Mingkai Liu | Research Homepage" />
+    <meta
+      property="og:description"
+      content="Academic homepage for Mingkai Liu, a master's student working on 3D computer vision, reconstruction, SLAM, and robotics."
+    />
+    <meta property="og:type" content="website" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div class="page-shell">
-      <aside class="profile-panel" aria-label="Profile">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="masthead">
+      <div class="masthead-inner">
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a class="nav-home" href="#about-me">Homepage</a>
+          <a href="#about-me">About Me</a>
+          <a href="#news">News</a>
+          <a href="#publications">Publications</a>
+          <a href="#experience">Experience</a>
+          <a href="#education">Education</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="site-layout">
+      <aside class="sidebar" aria-label="Profile">
         <img
           class="profile-photo"
           src="./assets/profile-placeholder.jpg?v=icra2026"
-          alt="Portrait of Mingkai Liu"
+          alt="Mingkai Liu at ICRA 2026"
         />
         <h1>Mingkai Liu</h1>
-        <p class="role">Master Student</p>
-        <p class="affiliation">Peking University</p>
+        <p class="profile-role">Master's Student</p>
+        <p class="profile-affiliation">Peking University</p>
 
-        <nav class="quick-links" aria-label="External links">
-          <a href="mailto:milchstrasse@stu.pku.edu.cn">Email</a>
-          <a href="https://scholar.google.com/citations?view_op=list_works&hl=zh-CN&user=TrAvOYAAAAAJ" aria-label="Google Scholar profile">Scholar</a>
-          <a href="https://github.com/milchstrasse565" aria-label="GitHub profile">GitHub</a>
-        </nav>
+        <ul class="profile-links">
+          <li><a href="mailto:milchstrasse@stu.pku.edu.cn">Email</a></li>
+          <li>
+            <a href="https://www.linkedin.com/feed/" target="_blank" rel="noreferrer">LinkedIn</a>
+          </li>
+          <li>
+            <a href="https://github.com/milchstrasse565" target="_blank" rel="noreferrer">GitHub</a>
+          </li>
+          <li>
+            <a
+              href="https://scholar.google.com/citations?view_op=list_works&amp;hl=zh-CN&amp;user=TrAvOYAAAAAJ"
+              target="_blank"
+              rel="noreferrer"
+              >Google Scholar</a
+            >
+          </li>
+        </ul>
 
-        <div class="profile-meta">
-          <p>Research interests</p>
-          <span>Computer Vision</span>
-          <span>3D Reconstruction</span>
-          <span>Robotics</span>
+        <div class="sidebar-block">
+          <p class="sidebar-label">Research interests</p>
+          <ul class="interest-list">
+            <li>3D Computer Vision</li>
+            <li>3D Reconstruction</li>
+            <li>SLAM &amp; Localization</li>
+            <li>Robotics</li>
+          </ul>
         </div>
       </aside>
 
-      <main class="content">
-        <section class="section intro" id="about">
-          <p class="eyebrow">Academic Homepage</p>
-          <h2>Biography</h2>
+      <main class="main-content" id="main-content">
+        <section class="section intro-section" id="about-me">
+          <p class="eyebrow">About Me</p>
+          <h2>Mingkai Liu</h2>
           <p>
-            I’m a second-year Master’s student at Peking University, majoring in Integrated Circuit Engineering. 
+            I am a second-year master's student at
+            <a href="https://www.pku.edu.cn/" target="_blank" rel="noreferrer">Peking University</a>,
+            majoring in Integrated Circuit Engineering.
           </p>
           <p>
-            My research interests lie in 3D computer vision and deep learning, with a focus on 3D reconstruction, SLAM, and Robotics.
+            My research interests lie in 3D computer vision and deep learning, with a focus on 3D
+            reconstruction, SLAM, scene localization, and robotics. I am interested in building
+            efficient visual systems that connect geometric understanding with real-world action.
           </p>
         </section>
 
         <section class="section" id="news">
           <div class="section-heading">
             <h2>News</h2>
-            <a href="#publications">Publications</a>
+            <span class="section-rule" aria-hidden="true"></span>
           </div>
           <ul class="news-list">
             <li>
-              <time datetime="2026-06">Jun 2026</time>
-              <span>One paper accepted to IROS 2026.</span>
+              <time datetime="2026-06">2026.06</time>
+              <span>One paper was accepted to IROS 2026.</span>
             </li>
             <li>
-              <time datetime="2026-01">Jan 2026</time>
-              <span>One paper accepted to ICRA 2026.</span>
+              <time datetime="2026-01">2026.01</time>
+              <span>One paper was accepted to ICRA 2026.</span>
             </li>
             <li>
-              <time datetime="2025-12">Dec 2025</time>
-              <span>One paper accepted to Science China Information Sciences.</span>
+              <time datetime="2025-12">2025.12</time>
+              <span>One paper was accepted to Science China Information Sciences.</span>
             </li>
             <li>
-              <time datetime="2025-10">Oct 2025</time>
-              <span>Winner, ICCV 2025 Cross-Device Image Localization Challenge.</span>
+              <time datetime="2025-10">2025.10</time>
+              <span>Our team won the ICCV 2025 Cross-Device Image Localization Challenge.</span>
             </li>
             <li>
-              <time datetime="2025-10">Oct 2025</time>
-              <span>IROS 2025 Workshop AIR4D Best Paper Award.</span>
+              <time datetime="2025-10">2025.10</time>
+              <span>Received the AIR4D Best Paper Award at the IROS 2025 workshop.</span>
             </li>
             <li>
-              <time datetime="2023-01">Jan 2023</time>
-              <span>One paper accepted to IEEE Journal on Emerging and Selected Topics in Circuits and Systems.</span>
+              <time datetime="2023-01">2023.01</time>
+              <span>One paper was accepted to IEEE Journal on Emerging and Selected Topics in Circuits and Systems.</span>
             </li>
           </ul>
         </section>
@@ -84,188 +124,182 @@
         <section class="section" id="publications">
           <div class="section-heading">
             <h2>Selected Publications</h2>
-            <a href="https://scholar.google.com/citations?view_op=list_works&hl=zh-CN&user=TrAvOYAAAAAJ">Full list</a>
+            <a
+              href="https://scholar.google.com/citations?view_op=list_works&amp;hl=zh-CN&amp;user=TrAvOYAAAAAJ"
+              target="_blank"
+              rel="noreferrer"
+              >Full list</a
+            >
           </div>
 
-          <article class="publication">
-            <div class="paper-thumb">
-              <img src="assets/sure-map.webp" alt="SURE-Map reconstruction and trajectory results" loading="lazy">
+          <article class="paper-box">
+            <div class="paper-box-image">
+              <img src="assets/sure-map.webp" alt="SURE-Map reconstruction results" loading="lazy" />
             </div>
-            <div class="paper-body">
+            <div class="paper-box-text">
               <h3>SURE-Map: Self-Correcting Streaming Geometric Foundation Models</h3>
-              <p class="authors">
-                <strong>Mingkai Liu</strong>, Hao Zhao, Xingxing Zuo
-              </p>
+              <p class="authors"><strong>Mingkai Liu</strong>, Hao Zhao, Xingxing Zuo</p>
               <p class="venue">arXiv preprint, 2026</p>
-              <div class="paper-links">
-                <a href="https://arxiv.org/abs/2609.15795">arXiv</a>
-                <a href="https://www.youtube.com/watch?v=vIKJFzLCtMc">Video</a>
-                <a href="https://github.com/RCL-Robotics/SURE-map">Code</a>
-                <a href="https://mingkai-liu.github.io/projects/sure-map/">Webpage</a>
-              </div>
+              <p class="publication-links">
+                <a href="https://arxiv.org/abs/2609.15795" target="_blank" rel="noreferrer">arXiv</a>
+                <span>/</span>
+                <a href="https://www.youtube.com/watch?v=vIKJFzLCtMc" target="_blank" rel="noreferrer">Video</a>
+                <span>/</span>
+                <a href="https://github.com/RCL-Robotics/SURE-map" target="_blank" rel="noreferrer">Code</a>
+                <span>/</span>
+                <a href="https://mingkai-liu.github.io/projects/sure-map/" target="_blank" rel="noreferrer">Webpage</a>
+              </p>
             </div>
           </article>
 
-          <article class="publication">
-            <div class="paper-thumb">
-              <img src="assets/1.png" alt="" loading="lazy">
+          <article class="paper-box">
+            <div class="paper-box-image">
+              <img src="assets/1.png" alt="ACEsplat paper illustration" loading="lazy" />
             </div>
-            <div class="paper-body">
+            <div class="paper-box-text">
               <h3>ACEsplat: Accelerated 3D Gaussian Scene Regression via RGB and Poses Only</h3>
-              <p class="authors">
-                <strong>Mingkai Liu</strong>, Haohua Que, Dikai Fan, Haojia Gao, Tianle Zhu, Handong Yao, Qian Zhang, Ruopeng Zhang, Xianliang Huang, Fei Qiao
-              </p>
+              <p class="authors"><strong>Mingkai Liu</strong>, Haohua Que, Dikai Fan, Haojia Gao, Tianle Zhu, Handong Yao, Qian Zhang, Ruopeng Zhang, Xianliang Huang, Fei Qiao</p>
               <p class="venue">IROS 2026</p>
-              <div class="paper-links">
-                <a href="https://arxiv.org/abs/2606.22091">arXiv</a>
-              </div>
+              <p class="publication-links">
+                <a href="https://arxiv.org/abs/2606.22091" target="_blank" rel="noreferrer">arXiv</a>
+              </p>
             </div>
           </article>
 
-          <article class="publication">
-            <div class="paper-thumb">
-              <img src="assets/2.png" alt="" loading="lazy">
+          <article class="paper-box">
+            <div class="paper-box-image">
+              <img src="assets/2.png" alt="MACE paper illustration" loading="lazy" />
             </div>
-            <div class="paper-body">
+            <div class="paper-box-text">
               <h3>MACE: Mixture-of-Experts Accelerated Coordinate Encoding for Large-Scale Scene Localization and Rendering</h3>
-              <p class="authors">
-                <strong>Mingkai Liu</strong>, Dikai Fan, Haohua Que, Haojia Gao, Xiao Liu, Shuxue Peng, Meixia Lin, Shengyu Gu, Ruicong Ye, Wanli Qiu, Handong Yao, Ruopeng Zhang, Xianliang Huang
-              </p>
+              <p class="authors"><strong>Mingkai Liu</strong>, Dikai Fan, Haohua Que, Haojia Gao, Xiao Liu, Shuxue Peng, Meixia Lin, Shengyu Gu, Ruicong Ye, Wanli Qiu, Handong Yao, Ruopeng Zhang, Xianliang Huang</p>
               <p class="venue">ICRA 2026</p>
-              <div class="paper-links">
-                <a href="https://arxiv.org/abs/2510.14251">arXiv</a>
-              </div>
+              <p class="publication-links">
+                <a href="https://arxiv.org/abs/2510.14251" target="_blank" rel="noreferrer">arXiv</a>
+              </p>
             </div>
           </article>
 
-          <article class="publication">
-            <div class="paper-thumb">
-              <img src="assets/3.jpg" alt="" loading="lazy">
+          <article class="paper-box">
+            <div class="paper-box-image">
+              <img src="assets/3.jpg" alt="Cross-device localization paper illustration" loading="lazy" />
             </div>
-            <div class="paper-body">
+            <div class="paper-box-text">
               <h3>Hybrid Cross-Device Localization via Neural Metric Learning and Feature Fusion</h3>
-              <p class="authors">
-                Meixia Lin<sup>†</sup>, <strong>Mingkai Liu</strong><sup>†</sup>, Shuxue Peng, Dikai Fan, Shengyu Gu, Xianliang Huang, Haoyang Ye, Xiao Liu
-              </p>
+              <p class="authors">Meixia Lin<sup>†</sup>, <strong>Mingkai Liu</strong><sup>†</sup>, Shuxue Peng, Dikai Fan, Shengyu Gu, Xianliang Huang, Haoyang Ye, Xiao Liu</p>
               <p class="venue">Winner, ICCV 2025 Cross-Device Image Localization Challenge</p>
-              <div class="paper-links">
-                <a href="https://arxiv.org/abs/2601.22551">arXiv</a>
-              </div>
+              <p class="publication-links">
+                <a href="https://arxiv.org/abs/2601.22551" target="_blank" rel="noreferrer">arXiv</a>
+              </p>
             </div>
           </article>
 
-          <article class="publication">
-            <div class="paper-thumb">
-              <img src="assets/4.png" alt="" loading="lazy">
+          <article class="paper-box">
+            <div class="paper-box-image">
+              <img src="assets/4.png" alt="Low-power image processing paper illustration" loading="lazy" />
             </div>
-            <div class="paper-body">
-              <h3>A selective bit dropping and encoding co-strategy in image processing for low-power design in DRAM and SRAM</h3>
-              <p class="authors">
-                <strong>Mingkai Liu</strong>, Haohua Que, Xinghua Yang, Kaitong Zhang, Qingyang Yu, Lingxiao Yan, Tong Wang, Yu Jin, Ni Zhou
-              </p>
+            <div class="paper-box-text">
+              <h3>A Selective Bit Dropping and Encoding Co-strategy in Image Processing for Low-power Design in DRAM and SRAM</h3>
+              <p class="authors"><strong>Mingkai Liu</strong>, Haohua Que, Xinghua Yang, Kaitong Zhang, Qingyang Yu, Lingxiao Yan, Tong Wang, Yu Jin, Ni Zhou</p>
               <p class="venue">IEEE Journal on Emerging and Selected Topics in Circuits and Systems</p>
-              <div class="paper-links">
-                <a href="https://ieeexplore.ieee.org/abstract/document/10006792">Paper</a>
-              </div>
+              <p class="publication-links">
+                <a href="https://ieeexplore.ieee.org/abstract/document/10006792" target="_blank" rel="noreferrer">Paper</a>
+              </p>
             </div>
           </article>
 
-          <article class="publication">
-            <div class="paper-thumb">
-              <img src="assets/5.png" alt="" loading="lazy">
+          <article class="paper-box">
+            <div class="paper-box-image">
+              <img src="assets/5.png" alt="PAICar robot platform illustration" loading="lazy" />
             </div>
-            <div class="paper-body">
-              <h3>PAICar: a prototype of an embodied neuromorphic intelligent robot platform</h3>
-              <p class="authors">
-                Shuo Feng<sup>†</sup>, <strong>Mingkai Liu</strong><sup>†</sup>, Jingyi Zhong, Guang Chen, Yi Zhong, Zilin Wang, Chenglong Zou, Xiaoxin Cui, Jian Cao, Yuan Wang
-              </p>
+            <div class="paper-box-text">
+              <h3>PAICar: A Prototype of an Embodied Neuromorphic Intelligent Robot Platform</h3>
+              <p class="authors">Shuo Feng<sup>†</sup>, <strong>Mingkai Liu</strong><sup>†</sup>, Jingyi Zhong, Guang Chen, Yi Zhong, Zilin Wang, Chenglong Zou, Xiaoxin Cui, Jian Cao, Yuan Wang</p>
               <p class="venue">Science China Information Sciences</p>
-              <div class="paper-links">
-                <a href="https://link.springer.com/article/10.1007/s11432-025-4706-x">Paper</a>
-              </div>
+              <p class="publication-links">
+                <a href="https://link.springer.com/article/10.1007/s11432-025-4706-x" target="_blank" rel="noreferrer">Paper</a>
+              </p>
             </div>
           </article>
         </section>
 
-        <section class="section" id="research-experience">
-          <h2>Research Experience</h2>
+        <section class="section" id="experience">
+          <div class="section-heading">
+            <h2>Research Experience</h2>
+            <span class="section-rule" aria-hidden="true"></span>
+          </div>
 
-          <article class="research-item">
-            <div class="research-logo research-logo-pku">
-              <img src="./logo/pku.png" alt="Peking University logo" />
+          <article class="experience-item">
+            <div class="experience-logo experience-logo-pku">
+              <img src="./logo/pku.png" alt="Peking University logo" loading="lazy" />
             </div>
-            <div class="research-body">
+            <div>
               <h3>Peking University</h3>
-              <p class="research-topic">
-                2023 - Present
-              </p>
-              <p>
-                Spiking neural network algorithm design and chip deployment.
-              </p>
+              <p class="experience-date">2023 – Present</p>
+              <p>Spiking neural network algorithm design and chip deployment.</p>
             </div>
           </article>
 
-          <article class="research-item">
-            <div class="research-logo">
-              <img src="./logo/qinghua.png" alt="Tsinghua University logo" />
+          <article class="experience-item">
+            <div class="experience-logo">
+              <img src="./logo/qinghua.png" alt="Tsinghua University logo" loading="lazy" />
             </div>
-            <div class="research-body">
+            <div>
               <h3>Research Assistant, Sense Lab, Tsinghua University</h3>
-              <p class="research-topic">
-                2023 - 2026
-              </p>
-              <p>
-                Robot localization,Control, Embedded system design.
-              </p>
+              <p class="experience-date">2023 – 2026</p>
+              <p>Robot localization, control, and embedded system design.</p>
             </div>
           </article>
 
-          <article class="research-item">
-            <div class="research-logo">
-              <img src="./logo/bytedance.png" alt="ByteDance logo" />
+          <article class="experience-item">
+            <div class="experience-logo">
+              <img src="./logo/bytedance.png" alt="ByteDance logo" loading="lazy" />
             </div>
-            <div class="research-body">
-              <h3>Research Intern, ByteDance, PICO</h3>
-              <p class="research-topic">
-                2025
-              </p>
-              <p>
-                3D Gaussian Splatting, Scene coordinate regression.
-              </p>
+            <div>
+              <h3>Research Intern, ByteDance PICO</h3>
+              <p class="experience-date">2025</p>
+              <p>3D Gaussian Splatting and scene coordinate regression.</p>
             </div>
           </article>
 
-          <article class="research-item">
-            <div class="research-logo">
-              <img src="./logo/mbzuai.png" alt="MBZUAI logo" />
+          <article class="experience-item">
+            <div class="experience-logo">
+              <img src="./logo/mbzuai.png" alt="MBZUAI logo" loading="lazy" />
             </div>
-            <div class="research-body">
+            <div>
               <h3>Visiting Student, MBZUAI</h3>
-              <p class="research-topic">
-                2026.06 - 2026.09
-              </p>
-              <p>
-                Streaming 3D feed-forward reconstruction.
-              </p>
+              <p class="experience-date">2026.06 – 2026.09</p>
+              <p>Streaming 3D feed-forward reconstruction.</p>
             </div>
           </article>
         </section>
 
         <section class="section" id="education">
-          <h2>Education</h2>
-          <ol class="timeline">
+          <div class="section-heading">
+            <h2>Education</h2>
+            <span class="section-rule" aria-hidden="true"></span>
+          </div>
+          <ol class="education-list">
             <li>
-              <span>Expected 2027</span>
-              <strong>M.S., Integrated Circuit Engineering</strong>
-              <p>Peking University</p>
+              <time datetime="2027">Expected 2027</time>
+              <div>
+                <strong>M.S., Integrated Circuit Engineering</strong>
+                <p>Peking University</p>
+              </div>
             </li>
             <li>
-              <span>2024</span>
-              <strong>B.S., Electronic Information Science and Technology</strong>
-              <p>Beijing Forestry University</p>
+              <time datetime="2024">2024</time>
+              <div>
+                <strong>B.S., Electronic Information Science and Technology</strong>
+                <p>Beijing Forestry University</p>
+              </div>
             </li>
           </ol>
         </section>
+
+        <footer class="site-footer">
+          <p>© <span id="current-year">2026</span> Mingkai Liu · Built with GitHub Pages.</p>
+        </footer>
       </main>
     </div>
   </body>
