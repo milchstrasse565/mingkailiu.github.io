@@ -369,6 +369,13 @@ h3 {
   font-size: 0.8rem;
 }
 
+.badge-award {
+  top: 2rem;
+  left: 0;
+  margin-left: -0.5em;
+  white-space: nowrap;
+}
+
 .paper-box-text {
   width: 100%;
   max-width: 100%;
