@@ -467,6 +467,11 @@ h3 {
   margin-bottom: 0.25rem;
 }
 
+.experience-supervisor {
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
 .experience-logo {
   display: flex;
   align-items: center;
