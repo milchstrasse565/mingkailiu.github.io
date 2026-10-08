@@ -7,7 +7,7 @@
   --link-hover: #172f5d;
   --line: #eef0f1;
   --accent: #00369f;
-  --max-width: 1200px;
+  --max-width: 1280px;
 }
 
 * {
@@ -162,7 +162,7 @@ h3 {
 .site-layout {
   display: grid;
   grid-template-columns: 230px minmax(0, 1fr);
-  gap: clamp(3rem, 7vw, 6.5rem);
+  gap: 3rem;
   width: min(var(--max-width), calc(100% - 3rem));
   margin: 0 auto;
   padding: 3.1rem 0 5rem;
@@ -233,7 +233,7 @@ h3 {
 
 .main-content {
   min-width: 0;
-  max-width: 880px;
+  max-width: none;
 }
 
 .section {
@@ -350,36 +350,23 @@ h3 {
 .paper-box-image img {
   display: block;
   width: 100%;
+  max-width: 400px;
   aspect-ratio: 5 / 3;
   border-radius: 0;
-  box-shadow: 3px 3px 6px rgba(40, 45, 50, 0.22);
+  box-shadow: 3px 3px 6px #888;
   object-fit: contain;
 }
 
 .badge {
   position: absolute;
   z-index: 2;
-  top: 0.5rem;
-  left: -0.5rem;
-  padding: 0.25rem 0.8rem;
+  margin-top: 0.5em;
+  margin-left: -0.5em;
+  padding-right: 1rem;
+  padding-left: 1rem;
   color: #fff;
   background: var(--accent);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.18);
   font-size: 0.8rem;
-  font-weight: 700;
-  line-height: 1.35;
-  white-space: nowrap;
-}
-
-.badge::after {
-  position: absolute;
-  bottom: -0.35rem;
-  left: 0;
-  width: 0;
-  height: 0;
-  content: "";
-  border-top: 0.35rem solid #00256e;
-  border-left: 0.35rem solid transparent;
 }
 
 .paper-box-text {
