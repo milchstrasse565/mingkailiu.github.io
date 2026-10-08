@@ -133,17 +133,18 @@
           </div>
 
           <article class="paper-box">
-            <div class="paper-box-image">
-              <a
-                class="video-preview"
-                href="https://www.youtube.com/watch?v=vIKJFzLCtMc"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="Watch the SURE-Map video"
+            <div class="paper-box-image paper-video">
+              <video
+                autoplay
+                muted
+                loop
+                playsinline
+                preload="auto"
+                poster="assets/sure-map.webp"
+                aria-label="SURE-Map video excerpt"
               >
-                <img src="assets/sure-map.webp" alt="SURE-Map video preview" loading="lazy" />
-                <span class="video-badge"><span aria-hidden="true">▶</span> Video</span>
-              </a>
+                <source src="assets/sure-map-clip.mp4" type="video/mp4" />
+              </video>
             </div>
             <div class="paper-box-text">
               <h3>SURE-Map: Self-Correcting Streaming Geometric Foundation Models</h3>
@@ -151,8 +152,6 @@
               <p class="venue">arXiv preprint, 2026</p>
               <p class="publication-links">
                 <a href="https://arxiv.org/abs/2609.15795" target="_blank" rel="noreferrer">arXiv</a>
-                <span>/</span>
-                <a href="https://www.youtube.com/watch?v=vIKJFzLCtMc" target="_blank" rel="noreferrer">Video</a>
                 <span>/</span>
                 <a href="https://github.com/RCL-Robotics/SURE-map" target="_blank" rel="noreferrer">Code</a>
                 <span>/</span>
