@@ -369,11 +369,15 @@ h3 {
   font-size: 0.8rem;
 }
 
-.badge-award {
-  top: 2rem;
-  left: 0;
-  margin-left: -0.5em;
-  white-space: nowrap;
+.publication-note {
+  margin: -0.35rem 0 0.9rem;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.venue-note {
+  display: block;
+  margin-top: 0.15rem;
 }
 
 .paper-box-text {
